@@ -16,9 +16,9 @@ int main()
     
     while (1)
     {
-        *gpio_out_set = led_mask;  //== gpio_put(LED_PIN, 1);
+        *gpio_out_set = led_mask;  //== gp io_put(LED_PIN, 1);
         sleep_ms(250);
-        *gpio_out_clr = led_mask;  //== gpio_put(LED_PIN, 0);
+        *gpio_out_clr = led_mask;  //== gp io_put(LED_PIN, 0);
         sleep_ms(1000);
     }
 }
